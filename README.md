@@ -45,6 +45,17 @@ pip install --upgrade "toolmate[genai]"
 ai -m
 ```
 
+### Build Windows executable
+
+To create a standalone Windows binary, run the helper script `build_toolmate_exe.py`:
+
+```
+python build_toolmate_exe.py
+```
+
+This clones the repository, installs requirements and produces `toolmate.exe` in
+the current directory. Git, Python and pip need to be available on your system.
+
 # Command Line Interface
 
 ToolMate AI 2.0+ offers mainly two commands `toolmate` / `tm` and `toolmatelite` / `tml` to resolve complex and simple tasks respectively.
